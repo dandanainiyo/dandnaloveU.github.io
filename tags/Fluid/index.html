@@ -17,14 +17,14 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="https://dandnaloveu.github.io/index.html">
+<meta property="og:title" content="标签 - Fluid">
+<meta property="og:url" content="https://dandnaloveu.github.io/tags/Fluid/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
-  <title>Hexo</title>
+  <title>标签 - Fluid - Hexo</title>
 
   <link  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css" />
 
@@ -56,7 +56,7 @@
 
 
 <body>
-  <header style="height: 100vh;">
+  <header style="height: 80vh;">
     <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
@@ -157,7 +157,7 @@
       <div class="full-bg-img">
         <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
           <div class="page-header text-center fade-in-up">
-            <span class="h2" id="subtitle" title="undefined">
+            <span class="h2" id="subtitle" title="标签 - Fluid">
               
             </span>
 
@@ -178,76 +178,28 @@
     
       <div class="container nopadding-x-md">
         <div class="py-5" id="board"
-          style=margin-top:0>
+          >
           
           <div class="container">
             <div class="row">
               <div class="col-12 col-md-10 m-auto">
                 
 
-
-  <div class="row mx-auto index-card">
+<div class="list-group">
+  <p class="h4">共计 1 篇文章</p>
+  <hr>
+  
+  
     
+      
+      <p class="h5">2021</p>
     
-      <div class="col-12 col-md-4 m-auto index-img">
-        <a href="/2021/12/10/HelloWorld/" target="_self">
-          <img src="/images/hello.jpg" srcset="/img/loading.gif" lazyload alt="Hello World">
-        </a>
-      </div>
-    
-    <article class="col-12 col-md-8 mx-auto index-info">
-      <h1 class="index-header">
-        
-        <a href="/2021/12/10/HelloWorld/" target="_self">
-          Hello World
-        </a>
-      </h1>
-
-      <p class="index-excerpt">
-        <a href="/2021/12/10/HelloWorld/" target="_self">
-          
-          
-            
-          
-          不知道为啥我注意力总是容易走散…看书累了突然想做个博客，任何就动手了…
-我还是不够累吗🙈
-✔技术栈
-  基于hexo的静态博客
-
-  后续再加上我自己的一些想法吧（下次一定…😂
-
-
-项目地址github
-👀关于部署博客白嫖GitHub，所以应该会经常抽风访问不了（话说为啥要墙gayhub啊…
-🍪画饼空下来就开通博客评论，留言板
-以后没事就来发发技(fei)术(hua)啥的
-每周刷几道力扣吧
-        </a>
-      </p>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>
-            <time datetime="2021-12-10 17:00" pubdate>
-              2021-12-10
-            </time>
-          </div>
-        
-        
-        
-          <div class="post-meta">
-            <i class="iconfont icon-tags"></i>
-            
-              <a href="/tags/Hexo/">Hexo</a>
-            
-              <a href="/tags/Fluid/">Fluid</a>
-            
-          </div>
-        
-      </div>
-    </article>
-  </div>
+    <a href="/2021/12/10/HelloWorld/" class="list-group-item list-group-item-action">
+      <span class="archive-post-title">Hello World</span>
+      <time style="float: right;">12-10</time>
+    </a>
+  
+</div>
 
 
 
@@ -352,34 +304,7 @@
       var typing = Fluid.plugins.typing;
       var title = document.getElementById('subtitle').title;
       
-      jQuery.ajax({
-        type: 'GET',
-        url: 'https://v1.hitokoto.cn/',
-        headers: {},
-        dataType: 'json',
-        success: function (result) {
-          var text;
-          if (result) {
-            var keys = 'hitokoto'.split('.')
-            if (result instanceof Array) {
-              result = result[0]
-            }
-            for (const k of keys) {
-              var value = result[k]
-              if (typeof value === 'string') {
-                text = value
-                break
-              } else if (value instanceof Object) {
-                result = value
-              }
-            }
-          }
-          text ? typing(text) : typing(title);
-        },
-        error: function () {
-          typing(title)
-        }
-      })
+      typing(title)
       
     })(window, document);
   </script>

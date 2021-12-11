@@ -5,12 +5,20 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2021/12/11/hello-world/"/>
-      <url>/2021/12/11/hello-world/</url>
+      <link href="/2021/12/10/HelloWorld/"/>
+      <url>/2021/12/10/HelloWorld/</url>
       
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">"My New Post"</span><br></code></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></tbody></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>不知道为啥我注意力总是容易走散…看书累了突然想做个博客，任何就动手了…</p><p>我还是不够累吗🙈</p><h3 id="✔技术栈"><a href="#✔技术栈" class="headerlink" title="✔技术栈"></a>✔技术栈</h3><ul><li><p><input checked="" disabled="" type="checkbox">  基于hexo的静态博客</p></li><li><p><input disabled="" type="checkbox">  后续再加上我自己的一些想法吧（下次一定…😂</p></li></ul><p>项目地址<a href="https://github.com/dandnaloveU/dandnaloveU.github.io">github</a></p><h3 id="👀关于部署"><a href="#👀关于部署" class="headerlink" title="👀关于部署"></a>👀关于部署</h3><p>博客白嫖GitHub，所以应该会经常抽风访问不了（话说为啥要墙gayhub啊…</p><h3 id="🍪画饼"><a href="#🍪画饼" class="headerlink" title="🍪画饼"></a>🍪画饼</h3><p>空下来就开通博客评论，留言板</p><p>以后没事就来发发技(fei)术(hua)啥的</p><p>每周刷几道力扣吧（应该没问题叭…</p><p><img src="/images/HelloWorld/ican.png" alt="image"></p><h3 id="End"><a href="#End" class="headerlink" title="End"></a>End</h3>]]></content>
       
       
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Fluid </tag>
+            
+        </tags>
       
     </entry>
     
