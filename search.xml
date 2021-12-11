@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>SignBox签到盒</title>
+      <link href="/2021/12/11/SignBox%E7%AD%BE%E5%88%B0%E7%9B%92/"/>
+      <url>/2021/12/11/SignBox%E7%AD%BE%E5%88%B0%E7%9B%92/</url>
+      
+        <content type="html"><![CDATA[<p>最近把我写的一些上古时代的脚本整合了一下，于是就有了现在这个SignBox签到盒。</p><figure class="highlight gherkin"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs gherkin"><br>     _______. __    _______ .__   __. .______     ______   ___   ___ <br>    /       ||<span class="hljs-string">  </span>|<span class="hljs-string">  /  _____</span>||<span class="hljs-string">  \ </span>|<span class="hljs-string">  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">   _  \   /  __  \  \  \ /  / </span><br><span class="hljs-string">   </span>|<span class="hljs-string">   (----`</span>|<span class="hljs-string">  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string">  __  </span>|<span class="hljs-string">   \</span>|<span class="hljs-string">  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string">_)  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string">  </span>|<span class="hljs-string">  </span>|<span class="hljs-string">  \  V  /  </span><br><span class="hljs-string">    \   \    </span>|<span class="hljs-string">  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">_ </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  . `  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">   _  &lt;  </span>|<span class="hljs-string">  </span>|<span class="hljs-string">  </span>|<span class="hljs-string">  </span>|<span class="hljs-string">   &gt;   &lt;   </span><br><span class="hljs-string">.----)   </span>|<span class="hljs-string">   </span>|<span class="hljs-string">  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string">__</span>|<span class="hljs-string"> </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string">\   </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  </span>|<span class="hljs-string">_)  </span>|<span class="hljs-string"> </span>|<span class="hljs-string">  `--'  </span>|<span class="hljs-string">  /  .  \  </span><br><span class="hljs-string"></span>|<span class="hljs-string">_______/    </span>|<span class="hljs-string">__</span>|<span class="hljs-string">  \______</span>|<span class="hljs-string"> </span>|<span class="hljs-string">__</span>|<span class="hljs-string"> \__</span>|<span class="hljs-string"> </span>|<span class="hljs-string">______/   \______/  /__/ \__\                                                                     </span><br><span class="hljs-string"></span><br><span class="hljs-string"></span><br><span class="hljs-string">vesion:1.0</span><br><span class="hljs-string">author:dandanya</span><br><span class="hljs-string"></span><br></code></pre></td></tr></tbody></table></figure><h3 id="✔已完成部分"><a href="#✔已完成部分" class="headerlink" title="✔已完成部分"></a>✔已完成部分</h3><ul><li><p>目前只整合了<code>bilibili</code>和<code>原神</code></p></li><li><p>bilibili自动做完每日任务，每天65积分，6级指日可待！</p></li><li><p>米游社自动签到</p></li><li><p>多账号支持</p></li></ul><h3 id="🍪画饼"><a href="#🍪画饼" class="headerlink" title="🍪画饼"></a>🍪画饼</h3><ul><li>有时间把推送通知做了</li><li>有时间健康打卡也整合进来</li><li>想到啥签到就加啥叭</li><li>尽力把代码写规范点…（坏习惯真的难改😂</li></ul><h3 id="项目地址"><a href="#项目地址" class="headerlink" title="项目地址"></a>项目地址</h3><p><a href="https://github.com/dandnaloveU/SignBox">SignBox</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> python </tag>
+            
+            <tag> 脚本 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2021/12/10/HelloWorld/"/>
       <url>/2021/12/10/HelloWorld/</url>
